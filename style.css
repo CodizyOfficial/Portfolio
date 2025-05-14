@@ -143,6 +143,8 @@
       justify-content: space-between;
       gap: 5rem;
       padding-top: 15rem;
+      opacity: 1 !important;
+      transform: none !important;  
     }
     .home-content {
       max-width: 60rem;
