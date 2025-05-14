@@ -280,7 +280,6 @@
       width: 100%;
     }
     .home-img {
-      flex: 1 1 400px;
       display: flex;
       justify-content: center;
     }
@@ -1004,8 +1003,16 @@
       .home-img {
         width: 70vw;
         height: 70vw;
-        margin-top: 4rem;
+        margin-top: 4rem auto;
         order: 1;
+      }
+       .img-box {
+        width: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .home-content { order: 2; }
       .home-content h1 { font-size: 4.5rem; }
@@ -1016,7 +1023,7 @@
       .about-img {
         width: 70vw;
         height: 70vw;
-        margin-top: 4rem;
+        margin-top: 4rem auto;
       }
       .services h2, .portfolio h2, .contact h2 { margin-bottom: 3rem; }
     }
